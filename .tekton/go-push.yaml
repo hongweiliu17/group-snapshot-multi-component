@@ -26,7 +26,7 @@ spec:
   - name: output-image
     value: quay.io/redhat-user-workloads-stage/rh-ee-hongliu-tenant/go:{{revision}}
   - name: dockerfile
-    value: docker/Dockerfile
+    value: Dockerfile
   - name: path-context
     value: go-component
   pipelineSpec:
