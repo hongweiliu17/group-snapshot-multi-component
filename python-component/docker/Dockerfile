@@ -10,6 +10,7 @@ WORKDIR /projects
 # Copy the content of the local src directory to the working directory
 COPY . .
 
+
 # Install any dependencies
 RUN \
   if [ -f requirements.txt ]; \
